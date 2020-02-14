@@ -41,7 +41,7 @@ export class SignupPage implements OnInit {
         {   type: 'minLength', message: 'password is too short '}
      ]
 }
-//
+
 
   constructor(private formBuilder: FormBuilder, private router: Router ){}
 
